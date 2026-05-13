@@ -1,7 +1,7 @@
 // backend/server.js
 import express from "express";
 import cors from "cors";
-import ListaVigilante_alumnos from "./src/routes/ListaVigilante_alumnos.js";
+import ListaVigilante_alumnos from "./routes/ListaVigilante_asistencia.js";
 const app = express();
 app.use(cors());
 app.use(express.json());
